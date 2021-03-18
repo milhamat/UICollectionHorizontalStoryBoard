@@ -13,6 +13,7 @@
 		DA2CC5162603545100C5633E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2CC5142603545100C5633E /* Main.storyboard */; };
 		DA2CC5182603545400C5633E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2CC5172603545400C5633E /* Assets.xcassets */; };
 		DA2CC51B2603545400C5633E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2CC5192603545400C5633E /* LaunchScreen.storyboard */; };
+		DA2CC52C260358E700C5633E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2CC52B260358E700C5633E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA2CC5172603545400C5633E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2CC51A2603545400C5633E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2CC51C2603545400C5633E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2CC52B260358E700C5633E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DA2CC50E2603545100C5633E /* AppDelegate.swift */,
 				DA2CC5102603545100C5633E /* SceneDelegate.swift */,
 				DA2CC5122603545100C5633E /* ViewController.swift */,
+				DA2CC52B260358E700C5633E /* CollectionViewCell.swift */,
 				DA2CC5142603545100C5633E /* Main.storyboard */,
 				DA2CC5172603545400C5633E /* Assets.xcassets */,
 				DA2CC5192603545400C5633E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				DA2CC5132603545100C5633E /* ViewController.swift in Sources */,
 				DA2CC50F2603545100C5633E /* AppDelegate.swift in Sources */,
+				DA2CC52C260358E700C5633E /* CollectionViewCell.swift in Sources */,
 				DA2CC5112603545100C5633E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
