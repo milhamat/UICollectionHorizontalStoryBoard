@@ -10,8 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var collection: UICollectionView!
+    @IBOutlet weak var addButton: UIButton!
     
-    let names: [String] = ["Anders", "Kristian"]
+    var names: [String] = ["Anders", "Kristian"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,10 @@ class ViewController: UIViewController {
         collection.delegate = self
         collection.dataSource = self
         
+    }
+    @IBAction func addButtonPressed(_ sender: UIButton) {
+        names.append("Marlo")
+        collection.reloadData()
     }
     
     
